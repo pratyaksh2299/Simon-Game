@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    background-color: black;
+}
+.container{
+    height: 410px;
+    width: 500px;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    /* border: 3px solid black; */
+    margin-top: 1rem;
+    box-shadow: 5px 5px 5px rgba(156, 102, 102, 0.5), -5px -5px 5px rgba(255, 193, 193, 0.5);
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+h1,p{
+    color: white;
+}
+.flash{
+    background-color: white;
+}
+.gree{
+    background-color: rgb(200, 255, 200);
+}
